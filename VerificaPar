@@ -1,0 +1,23 @@
+//-------CONFIGURATION
+name: Verifica Par
+init: q0
+accept: qend
+
+//Resultado final:
+//1=par
+//0=impar
+
+q0,0
+q0,_,>
+
+q0,1
+q1,_,>
+
+q0,_
+qend,1,-
+
+q1,0
+q0,_,>
+
+q1,_
+qerro,0,-
