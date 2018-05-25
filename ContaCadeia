@@ -1,0 +1,34 @@
+//-------CONFIGURATION
+name: Conta cadeia
+init: q0
+accept: qend
+
+q0,a,_
+q1,_,1,>,>
+
+q0,b,_
+q1,_,1,>,>
+
+qcorrige,_,1
+qend,_,_,>,>
+
+q0,_,_
+qcorrige,_,_,-,<
+
+q1,a,_
+q1,_,1,>,>
+
+q1,b,_
+q1,_,1,>,>
+
+q1,_,1
+qend,_,_,-,-
+
+q1,_,_
+q0,_,1,>,>
+
+qend,b,_
+q1,b,_,<,<
+
+qend,a,_
+q1,a,_,<,<
