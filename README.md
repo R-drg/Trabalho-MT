@@ -23,6 +23,6 @@ Construa uma Máquina de Turing que verifica se um número na base binária é p
 
 # Conta cadeia
 Construa uma Máquina de Turing que calcule o tamanho de uma cadeia w, onde w é uma
-sequência de a’s ou b’s, incluindo a cadeia vazia. A resposta deve estar na vase unária.
+sequência de a’s ou b’s, incluindo a cadeia vazia. A resposta deve estar na base unária.
 
 A Máquina de Turing fará a simulação do comando strlen() da linguagem C.
